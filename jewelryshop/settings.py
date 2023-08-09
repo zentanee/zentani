@@ -118,7 +118,7 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'jewelryshop/static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static') # Automatically Created on Production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static') # Automatically Created on Production
 
 # Settings for Media
 MEDIA_URL = '/media/'
